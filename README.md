@@ -1,14 +1,20 @@
-# Sample Hardhat Project
+# Store ,Share and Fetch Images using IShare
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat and smart constract use case to store images in IPFS using Pinata.
 
-Try running some of the following tasks:
+To Run:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run --network scripts/deploy.js
+
+```
+
+```shell
+
+cd client
+npm start
+
 ```
 #IShare
